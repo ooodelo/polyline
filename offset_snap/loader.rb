@@ -32,7 +32,7 @@ module OffsetSnapTool
     end
 
     const_set(:COMMAND, command)
-    UI.menu('Tools').add_item(command)
+    UI.menu('Extensions').add_item(command)
   end
 end
 
