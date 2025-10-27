@@ -9,20 +9,19 @@
    ```text
    offset_snap_tool/
    ├── offset_snap_tool.rb
-   └── src/
-       └── offset_snap/
-           ├── loader.rb
-           ├── tool.rb
-           ├── state_manager.rb
-           ├── snap_engine.rb
-           ├── direction_resolver.rb
-           ├── offset_calculator.rb
-           ├── renderer.rb
-           ├── ui_feedback.rb
-           ├── geometry_creator.rb
-           └── history_manager.rb
+   └── offset_snap/
+       ├── loader.rb
+       ├── tool.rb
+       ├── state_manager.rb
+       ├── snap_engine.rb
+       ├── direction_resolver.rb
+       ├── offset_calculator.rb
+       ├── renderer.rb
+       ├── ui_feedback.rb
+       ├── geometry_creator.rb
+       └── history_manager.rb
    ```
-3. В файле `offset_snap_tool.rb` разместите единственный `require` на загрузчик `src/offset_snap/loader.rb`.
+3. В файле `offset_snap_tool.rb` разместите единственный `require` на загрузчик `offset_snap/loader.rb`.
 4. Обеспечьте неймспейс, например `module OffsetSnapTool`, чтобы избежать конфликтов с другими расширениями.
 
 ## 2. Общий каркас и StateManager
